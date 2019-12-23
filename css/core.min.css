@@ -100,18 +100,18 @@ body {
 	left: 0;
 	right: 0;
 	margin: auto;
-	max-width: 40%;
+	max-width: 70%;
 	-webkit-animation-delay: 0.2s;
 	animation-delay: 0.2s;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
-	max-width: 400px;
 }
 @media only screen and (min-width: 600px) {
 	.logo {
 		top: 50%;
 		-webkit-transform: translateY(-50%);
 		transform: translateY(-50%);
+		max-width: 400px;
 	}
 }
 .footer {
