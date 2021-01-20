@@ -24,6 +24,7 @@ const IndexPage = () => (
                 <div className="row">
                     <div className="col-xs-12 col-sm-6">
                         <YouTubePlayer video="5nqkEJcRyqA" />
+                        <br />
                     </div>
                     <div className="col-xs-12 col-sm-6">
                         <YouTubePlayer video="qSC8Bg7srAs" />
