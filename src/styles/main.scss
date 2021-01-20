@@ -1,0 +1,108 @@
+@import "reset";
+@import "lib/variables";
+@import "lib/mixins";
+@import "flexboxgrid";
+@import "https://fonts.googleapis.com/css?family=Libre+Franklin:light,regular,bold";
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 62.5%;
+
+    body {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        font-family: $font-family;
+        color: $color__text;
+        background-color: #fff;
+    }
+}
+
+#main {
+    flex-grow: 1;
+    min-height: 60vh;
+}
+
+* {
+    font-family: $font-family;
+}
+
+strong,
+b {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $color__primary;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+p,
+ul {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: $color__link;
+    font-weight: bold;
+    transition: 200ms ease;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+ul {
+    list-style: disc;
+    li {
+        margin-left: 30px;
+    }
+}
+
+.small {
+    font-size: 1.3rem;
+}
+
+input,
+select {
+    font-size: 100%;
+}
+
+.section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}

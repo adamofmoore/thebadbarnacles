@@ -1,0 +1,48 @@
+// SCSS Mixins
+//------------------------------
+// 1.0 - Media Queries
+// 2.0 - Retina
+// 3.0 - Blur
+//------------------------------
+
+// 1.0 - Media Queries
+// --------------------------------------------------
+$mediaQueries: (
+    mobile: "only screen and (min-width: 0)",
+    mobile-tiny: "only screen and (max-width: 370px)",
+    mobile-landscape: "only screen and (min-width: 480px)",
+    mobile-only: "only screen and (max-width: 767px)",
+    tablet: "only screen and (min-width: 768px)",
+    tablet-large: "only screen and (min-width: 958px)",
+    desktop: "only screen and (min-width: 992px)",
+    desktop-large: "only screen and (min-width: 1200px)",
+    desktop-extra-large: "only screen and (min-width: 1400px)",
+);
+
+@function media-query($name) {
+    @return unquote(map-get($mediaQueries, $name));
+}
+
+@mixin bp($name) {
+    @media #{media-query($name)} {
+        @content;
+    }
+}
+
+// 2.0 - Retina
+//------------------------------
+@import "retina";
+
+// 3.0 - Blur
+//------------------------------
+@mixin blur($amount) {
+    $blur: blur(#{$amount});
+    @if ($amount == none) {
+        $blur: none;
+    }
+    -webkit-filter: #{$blur};
+    -moz-filter: #{$blur};
+    -o-filter: #{$blur};
+    -ms-filter: #{$blur};
+    filter: #{$blur};
+}
