@@ -1,7 +1,11 @@
 @import "../../styles/lib/variables";
 
 .outer-padding {
-    margin: 0 30px;
+    margin: 0 16px;
+
+    @media screen and (min-width: 480px) {
+        margin: 0 32px;
+    }
 }
 
 footer {
