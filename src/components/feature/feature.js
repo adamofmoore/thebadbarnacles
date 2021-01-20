@@ -3,7 +3,15 @@ import Band1 from "./images/band-1.jpg";
 import Cider from "./images/cider.jpg";
 
 const BackgroundImage = styled.div`
-    height: 600px;
+    height: 200px;
+
+    @media screen and (min-width: 600px) {
+        height: 400px;
+    }
+
+    @media screen and (min-width: 768px) {
+        height: 600px;
+    }
 `;
 
 export const PrimaryFeature = styled(BackgroundImage)`
