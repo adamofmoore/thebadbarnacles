@@ -20,7 +20,7 @@ const IndexPage = () => (
 
         <div className="container" style={{ textAlign: "center" }}>
             <div className="section">
-                <h2>Video</h2>
+                <h2>Videos</h2>
                 <div className="row">
                     <div className="col-xs-12 col-sm-6">
                         <YouTubePlayer video="5nqkEJcRyqA" />
@@ -34,7 +34,6 @@ const IndexPage = () => (
 
             {/* <div className="section">
                 <h2>Shows</h2>
-                <p>You can add shows here once you have some.</p>
                 <p>You can add shows here once you have some.</p>
             </div> */}
         </div>
