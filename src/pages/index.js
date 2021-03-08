@@ -10,7 +10,7 @@ const IndexPage = () => (
         <PrimaryFeature />
 
         <iframe
-            src="https://open.spotify.com/embed/album/2nCm2dWYm6KCXo4Huc3E07"
+            src="https://open.spotify.com/embed/track/7mMzmzB7F9AjvF2t2Nc54u"
             width="100%"
             height="80"
             frameBorder="0"
