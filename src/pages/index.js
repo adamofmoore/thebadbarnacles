@@ -32,10 +32,10 @@ const IndexPage = () => (
                 </div>
             </div>
 
-            {/* <div className="section">
+            <div className="section">
                 <h2>Shows</h2>
-                <p>You can add shows here once you have some.</p>
-            </div> */}
+                <p>March 20 8PM: The Bad Barnacles w/ Sour Diesel @ BBQ and Burgers - 2114 Sutterville Rd, Sacramento, CA  </p>
+            </div>
         </div>
     </Layout>
 );
