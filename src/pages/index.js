@@ -2,6 +2,7 @@ import React from "react";
 import { PrimaryFeature } from "../components/feature/feature";
 import Layout from "../components/layout/layout";
 import SEO from "../components/seo";
+import Show from "../components/show";
 import YouTubePlayer from "../components/youtube-player";
 
 const IndexPage = () => (
@@ -33,8 +34,14 @@ const IndexPage = () => (
             </div>
 
             <div className="section">
-                <h2>Shows</h2>
-                <p>March 20 8PM: The Bad Barnacles w/ Sour Diesel @ BBQ and Burgers - 2114 Sutterville Rd, Sacramento, CA  </p>
+                <h2>Upcoming Shows</h2>
+                <Show
+                    date="March 20th"
+                    time="8PM"
+                    bands="Sour Diesel"
+                    venue="BBQ and Burgers"
+                    address="2114 Sutterville Rd, Sacramento, CA"
+                />
             </div>
         </div>
     </Layout>
