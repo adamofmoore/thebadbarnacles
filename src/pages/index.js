@@ -42,6 +42,12 @@ const IndexPage = () => (
                     venue="BBQ and Burgers"
                     address="2114 Sutterville Rd, Sacramento, CA"
                 />
+                <Show
+                    date="May 1"
+                    time="5PM"
+                    venue="New Glory Craft Brewery"
+                    address="8251 Alpine Ave, Sacramento, CA "
+                />
             </div>
         </div>
     </Layout>
