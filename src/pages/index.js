@@ -43,7 +43,7 @@ const IndexPage = () => (
                     address="2114 Sutterville Rd, Sacramento, CA"
                 />
                 <Show
-                    date="May 1"
+                    date="May 1st"
                     time="5PM"
                     venue="New Glory Craft Brewery"
                     address="8251 Alpine Ave, Sacramento, CA "
