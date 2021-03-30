@@ -35,18 +35,14 @@ const IndexPage = () => (
 
             <div className="section">
                 <h2>Upcoming Shows</h2>
-                <Show 
-                    date="March 20th"
-                    time="2PM"
-                    venue="Tahoe Park, Sacramento, CA"
-                    address="Private Event"
-                />
+                <Show date="March 20th" time="2PM" address="Private Event" venue="Tahoe Park, Sacramento, CA" isPast />
                 <Show
                     date="March 20th"
                     time="8PM"
                     bands="Sour Diesel"
                     venue="BBQ and Burgers"
                     address="2114 Sutterville Rd, Sacramento, CA"
+                    isPast
                 />
                 <Show
                     date="May 1st"

@@ -7,27 +7,36 @@ interface ShowProps {
     bands?: string;
     venue: string;
     address: string;
+    isPast?: boolean;
 }
 
 const Show = (props: ShowProps) => {
-    const { date, time, bands, venue, address } = props;
+    const { date, time, bands, venue, address, isPast } = props;
 
     return (
-        <p>
+        <ShowInfo {...{ isPast }}>
             <strong>
                 {date}, {time}
             </strong>
             <br />
-            {bands && "w/ " + bands} @ {venue}
+            {bands && `w/ ${bands}`} @ {venue}
             <br />
             <Address>{address}</Address>
-        </p>
+        </ShowInfo>
     );
 };
 
 const Address = styled.span`
     font-size: 1.3rem;
     color: #555;
+`;
+
+const ShowInfo = styled.p<{ isPast }>`
+    ${(p) =>
+        p.isPast &&
+        `
+        text-decoration: line-through;
+    `}
 `;
 
 export default Show;
