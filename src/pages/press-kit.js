@@ -73,7 +73,7 @@ const SecondPage = () => (
                         </div>
                     </div>
                     <div className="section">
-                        <h2>Contact</h2>
+                        <h2>Contact For Booking:</h2>
                         <p>
                             <a href="mailto:thebadbarnacles@gmail.com">thebadbarnacles@gmail.com</a>
                         </p>
