@@ -49,16 +49,18 @@ const IndexPage = () => (
                     time="5PM"
                     venue="New Glory Craft Brewery"
                     address="8251 Alpine Ave, Sacramento, CA"
+                    isPast
                 />
                 <Show
                     date="May 15th"
                     time="5PM"
                     venue="Big Sexy Brewing Company"
                     address="85861 88th St #800, Sacramento, CA 95828"
+                    isPast
                 />
                 <Show
                     date="May 29th"
-                    time="6PM"
+                    time="6:30PM"
                     venue="Two Rivers Cider"
                     address="4311 Attawa Ave #300, Sacramento, CA 95822"
                 />
