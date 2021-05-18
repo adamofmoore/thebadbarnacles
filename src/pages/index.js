@@ -56,7 +56,14 @@ const IndexPage = () => (
                     time="5PM"
                     venue="Big Sexy Brewing Company"
                     address="85861 88th St #800, Sacramento, CA 95828"
-                    isPast
+                    isPast   
+                />
+                <Show
+                    date="May 22nd"
+                    time="4:30PM"
+                    bands="Loose Threads"
+                    venue="SacYard Community Tap House"
+                    address="1725 33rd Street, Sacramento, CA 95816"
                 />
                 <Show
                     date="May 29th"
