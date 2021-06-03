@@ -76,8 +76,8 @@ const IndexPage = () => (
                  <Show
                     date="June 5th"
                     time="8:30PM"
-                    venue="Livestream @rooflessreddoor on IG"
-                    address="Roofless Red Door - Alameda CA"
+                    venue="rooflessreddoor on IG (Livestream)"
+                    address="Roofless Red Door - Alameda, CA"
                 />
             </div>
         </div>
