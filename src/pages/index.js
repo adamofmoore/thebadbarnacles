@@ -64,12 +64,20 @@ const IndexPage = () => (
                     bands="Loose Threads"
                     venue="SacYard Community Tap House"
                     address="1725 33rd Street, Sacramento, CA 95816"
+                    isPast
                 />
                 <Show
                     date="May 29th"
                     time="6:30PM"
                     venue="Two Rivers Cider"
                     address="4311 Attawa Ave #300, Sacramento, CA 95822"
+                    isPast
+                />
+                 <Show
+                    date="June 5th"
+                    time="8:30PM"
+                    venue="Livestream @rooflessreddoor on IG"
+                    address="Roofless Red Door - Alameda CA"
                 />
             </div>
         </div>
