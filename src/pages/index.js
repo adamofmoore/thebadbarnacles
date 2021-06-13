@@ -73,11 +73,19 @@ const IndexPage = () => (
                     address="4311 Attawa Ave #300, Sacramento, CA 95822"
                     isPast
                 />
-                 <Show
+                <Show
                     date="June 5th"
                     time="8:30PM"
                     venue="rooflessreddoor on IG (Livestream)"
                     address="Roofless Red Door - Alameda, CA"
+                    isPast
+                />
+                <Show
+                    date="June 18th"
+                    time="8:30PM"
+                    bands="Moon Mode"
+                    venue="Old Ironsides Bar"
+                    address="1901 10th Street, Sacramento, CA 95811"
                 />
             </div>
         </div>
