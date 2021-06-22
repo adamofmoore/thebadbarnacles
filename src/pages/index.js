@@ -86,6 +86,14 @@ const IndexPage = () => (
                     bands="Moon Mode"
                     venue="Old Ironsides Bar"
                     address="1901 10th Street, Sacramento, CA 95811"
+                    isPast
+                />
+                <Show
+                    date="June 26th"
+                    time="6PM"
+                    bands="Shane Q., Edward Faustino and Mary Sand"
+                    venue="Capitol Park"
+                    address="1300 L Street, Sacramento, CA 95814"
                 />
             </div>
         </div>
