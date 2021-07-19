@@ -96,6 +96,13 @@ const IndexPage = () => (
                     address="1300 L Street, Sacramento, CA 95814"
                     isPast
                 />
+                <Show
+                    date="August 7th"
+                    time="8PM"
+                    bands="HONEYRUSH"
+                    venue="The Russ Room"
+                    address="720 K St., Sacramento CA - Tix @ www.therussroom.com"
+                />
             </div>
         </div>
     </Layout>
