@@ -94,6 +94,7 @@ const IndexPage = () => (
                     bands="Shane Q., Edward Faustino and Mary Sand"
                     venue="Capitol Park"
                     address="1300 L Street, Sacramento, CA 95814"
+                    isPast
                 />
             </div>
         </div>
