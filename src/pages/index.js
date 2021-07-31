@@ -101,7 +101,14 @@ const IndexPage = () => (
                     time="8PM"
                     bands="HONEYRUSH"
                     venue="The Russ Room"
-                    address="720 K St., Sacramento CA - Tix @ www.therussroom.com"
+                    address="720 K St., Sacramento, CA - Tix @ www.therussroom.com"
+                />
+                <Show
+                    date="August 13th"
+                    time="7PM"
+                    bands="DESERT BLOOM, Mother Muerte and Outlaws"
+                    venue="The Colony"
+                    address="3512 Stockton Blvd., Sacramento, CA 95820 Buy Tix HERE"
                 />
             </div>
         </div>
