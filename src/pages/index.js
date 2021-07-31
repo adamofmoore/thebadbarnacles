@@ -56,7 +56,7 @@ const IndexPage = () => (
                     time="5PM"
                     venue="Big Sexy Brewing Company"
                     address="85861 88th St #800, Sacramento, CA 95828"
-                    isPast   
+                    isPast
                 />
                 <Show
                     date="May 22nd"
@@ -76,8 +76,8 @@ const IndexPage = () => (
                 <Show
                     date="June 5th"
                     time="8:30PM"
-                    venue="rooflessreddoor on IG (Livestream)"
-                    address="Roofless Red Door - Alameda, CA"
+                    venue="Roofless Red Door"
+                    address="2309 Encinal Ave, Alameda, CA 94501"
                     isPast
                 />
                 <Show
@@ -101,14 +101,16 @@ const IndexPage = () => (
                     time="8PM"
                     bands="HONEYRUSH"
                     venue="The Russ Room"
-                    address="720 K St., Sacramento, CA - Tix @ www.therussroom.com"
+                    address="720 K St, Sacramento, CA 95814"
+                    tickets="https://www.exploretock.com/therussroom/event/291739/honeyrush-the-bad-barnacles"
                 />
                 <Show
                     date="August 13th"
                     time="7PM"
                     bands="DESERT BLOOM, Mother Muerte and Outlaws"
                     venue="The Colony"
-                    address="3512 Stockton Blvd., Sacramento, CA 95820 Buy Tix HERE"
+                    address="3512 Stockton Blvd, Sacramento, CA 95820"
+                    tickets="https://www.eventbrite.com/e/desert-bloom-mother-muerte-bad-barnacles-outlaws-in-the-golden-state-tickets-163670716519"
                 />
             </div>
         </div>
