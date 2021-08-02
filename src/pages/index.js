@@ -35,67 +35,6 @@ const IndexPage = () => (
 
             <div className="section">
                 <h2>Upcoming Shows</h2>
-                <Show date="March 20th" time="2PM" address="Private Event" venue="Tahoe Park, Sacramento, CA" isPast />
-                <Show
-                    date="March 20th"
-                    time="8PM"
-                    bands="Sour Diesel"
-                    venue="BBQ and Burgers"
-                    address="2114 Sutterville Rd, Sacramento, CA"
-                    isPast
-                />
-                <Show
-                    date="May 1st"
-                    time="5PM"
-                    venue="New Glory Craft Brewery"
-                    address="8251 Alpine Ave, Sacramento, CA"
-                    isPast
-                />
-                <Show
-                    date="May 15th"
-                    time="5PM"
-                    venue="Big Sexy Brewing Company"
-                    address="85861 88th St #800, Sacramento, CA 95828"
-                    isPast
-                />
-                <Show
-                    date="May 22nd"
-                    time="4:30PM"
-                    bands="Loose Threads"
-                    venue="SacYard Community Tap House"
-                    address="1725 33rd Street, Sacramento, CA 95816"
-                    isPast
-                />
-                <Show
-                    date="May 29th"
-                    time="6:30PM"
-                    venue="Two Rivers Cider"
-                    address="4311 Attawa Ave #300, Sacramento, CA 95822"
-                    isPast
-                />
-                <Show
-                    date="June 5th"
-                    time="8:30PM"
-                    venue="Roofless Red Door"
-                    address="2309 Encinal Ave, Alameda, CA 94501"
-                    isPast
-                />
-                <Show
-                    date="June 18th"
-                    time="8:30PM"
-                    bands="Moon Mode"
-                    venue="Old Ironsides Bar"
-                    address="1901 10th Street, Sacramento, CA 95811"
-                    isPast
-                />
-                <Show
-                    date="June 26th"
-                    time="6PM"
-                    bands="Shane Q., Edward Faustino and Mary Sand"
-                    venue="Capitol Park"
-                    address="1300 L Street, Sacramento, CA 95814"
-                    isPast
-                />
                 <Show
                     date="August 7th"
                     time="8PM"
@@ -111,6 +50,73 @@ const IndexPage = () => (
                     venue="The Colony"
                     address="3512 Stockton Blvd, Sacramento, CA 95820"
                     tickets="https://www.eventbrite.com/e/desert-bloom-mother-muerte-bad-barnacles-outlaws-in-the-golden-state-tickets-163670716519"
+                />
+                <Show
+                    date="June 26th"
+                    time="6PM"
+                    bands="Shane Q., Edward Faustino and Mary Sand"
+                    venue="Capitol Park"
+                    address="1300 L Street, Sacramento, CA 95814"
+                    isPast
+                />
+                <Show
+                    date="June 18th"
+                    time="8:30PM"
+                    bands="Moon Mode"
+                    venue="Old Ironsides Bar"
+                    address="1901 10th Street, Sacramento, CA 95811"
+                    isPast
+                />
+                <Show
+                    date="June 5th"
+                    time="8:30PM"
+                    venue="Roofless Red Door"
+                    address="2309 Encinal Ave, Alameda, CA 94501"
+                    isPast
+                />
+                <Show
+                    date="May 29th"
+                    time="6:30PM"
+                    venue="Two Rivers Cider"
+                    address="4311 Attawa Ave #300, Sacramento, CA 95822"
+                    isPast
+                />
+                <Show
+                    date="May 22nd"
+                    time="4:30PM"
+                    bands="Loose Threads"
+                    venue="SacYard Community Tap House"
+                    address="1725 33rd Street, Sacramento, CA 95816"
+                    isPast
+                />
+                <Show
+                    date="May 15th"
+                    time="5PM"
+                    venue="Big Sexy Brewing Company"
+                    address="85861 88th St #800, Sacramento, CA 95828"
+                    isPast
+                />
+                <Show
+                    date="May 1st"
+                    time="5PM"
+                    venue="New Glory Craft Brewery"
+                    address="8251 Alpine Ave, Sacramento, CA"
+                    isPast
+                />
+                <Show
+                    date="March 20th"
+                    time="8PM"
+                    bands="Sour Diesel"
+                    venue="BBQ and Burgers"
+                    address="2114 Sutterville Rd, Sacramento, CA"
+                    isPast
+                />
+                <Show 
+                    date="March 20th" 
+                    time="2PM" 
+                    address="Private Event" 
+                    venue="Tahoe Park, Sacramento, CA" 
+                    isPast 
                 />
             </div>
         </div>
