@@ -36,20 +36,28 @@ const IndexPage = () => (
             <div className="section">
                 <h2>Upcoming Shows</h2>
                 <Show
-                    date="August 7th"
-                    time="8PM"
-                    bands="HONEYRUSH"
-                    venue="The Russ Room"
-                    address="720 K St, Sacramento, CA 95814"
-                    tickets="https://www.exploretock.com/therussroom/event/291739/honeyrush-the-bad-barnacles"
-                />
-                <Show
                     date="August 13th"
                     time="7PM"
                     bands="DESERT BLOOM, Mother Muerte and Outlaws"
                     venue="The Colony"
                     address="3512 Stockton Blvd, Sacramento, CA 95820"
                     tickets="https://www.eventbrite.com/e/desert-bloom-mother-muerte-bad-barnacles-outlaws-in-the-golden-state-tickets-163670716519"
+                />
+                <Show
+                    date="August 20th"
+                    time="6PM"
+                    bands="TBA"
+                    venue="Torch Club"
+                    address="904 15th St, Sacramento, CA 95814"
+                />
+                <Show
+                    date="August 7th"
+                    time="8PM"
+                    bands="HONEYRUSH"
+                    venue="The Russ Room"
+                    address="720 K St, Sacramento, CA 95814"
+                    tickets="https://www.exploretock.com/therussroom/event/291739/honeyrush-the-bad-barnacles"
+                    isPast
                 />
                 <Show
                     date="June 26th"
