@@ -42,13 +42,7 @@ const IndexPage = () => (
                     venue="The Colony"
                     address="3512 Stockton Blvd, Sacramento, CA 95820"
                     tickets="https://www.eventbrite.com/e/desert-bloom-mother-muerte-bad-barnacles-outlaws-in-the-golden-state-tickets-163670716519"
-                />
-                <Show
-                    date="August 20th"
-                    time="6PM"
-                    bands="TBA"
-                    venue="Torch Club"
-                    address="904 15th St, Sacramento, CA 95814"
+                    isPast
                 />
                 <Show
                     date="August 7th"
