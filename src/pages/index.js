@@ -36,6 +36,13 @@ const IndexPage = () => (
             <div className="section">
                 <h2>Upcoming Shows</h2>
                 <Show
+                    date="October 3rd"
+                    time="7PM"
+                    bands="Church Girls, Paper Airplanes"
+                    venue="Cafe Colonial"
+                    address="3520 Stockton Blvd, Sacramento, CA 95820"
+                />
+                <Show
                     date="August 13th"
                     time="7PM"
                     bands="DESERT BLOOM, Mother Muerte and Outlaws"
