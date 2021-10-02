@@ -39,6 +39,7 @@ const SecondPage = () => (
                     <div className="section">
                         <h2>Listen</h2>
                         <iframe
+                            title="Spotify player"
                             src="https://open.spotify.com/embed/album/1bDE3hNH9MIjOWieIE6rra"
                             width="100%"
                             height="380"
@@ -84,13 +85,13 @@ const SecondPage = () => (
                     <h2>Photos</h2>
 
                     <Link href={Press1} target="_blank" rel="noopener">
-                        <img src={Press1} />
+                        <img src={Press1} alt="The Bad Barnacles members outside" />
                     </Link>
                     <Link href={Press2} target="_blank" rel="noopener">
-                        <img src={Press2} />
+                        <img src={Press2} alt="The Bad Barnacles members" />
                     </Link>
                     <Link href={Press3} target="_blank" rel="noopener">
-                        <img src={Press3} />
+                        <img src={Press3} alt="Live performance from The Bad Barnacles" />
                     </Link>
                 </div>
             </div>

@@ -11,6 +11,7 @@ const IndexPage = () => (
         <PrimaryFeature />
 
         <iframe
+            title="Spotify player"
             src="https://open.spotify.com/embed/track/7mMzmzB7F9AjvF2t2Nc54u"
             width="100%"
             height="80"
@@ -41,11 +42,7 @@ const IndexPage = () => (
                     venue="Powerhouse Pub"
                     address="614 Sutter St. #D, Folsom, CA 95630"
                 />
-                <Show
-                    date="October 9th"
-                    venue="Private Event"
-                    address="Sacramento, CA"
-                />
+                <Show date="October 9th" venue="Private Event" address="Sacramento, CA" />
                 <Show
                     date="October 3rd"
                     time="7PM"
@@ -131,13 +128,7 @@ const IndexPage = () => (
                     address="2114 Sutterville Rd, Sacramento, CA"
                     isPast
                 />
-                <Show 
-                    date="March 20th" 
-                    time="2PM" 
-                    address="Private Event" 
-                    venue="Tahoe Park, Sacramento, CA" 
-                    isPast 
-                />
+                <Show date="March 20th" time="2PM" address="Private Event" venue="Tahoe Park, Sacramento, CA" isPast />
             </div>
         </div>
     </Layout>
