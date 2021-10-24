@@ -38,17 +38,32 @@ const IndexPage = () => (
                 <h2>Upcoming Shows</h2>
                 <Show
                     date="October 27th"
+                    time="8PM"
                     bands="TBA"
                     venue="Powerhouse Pub"
                     address="614 Sutter St. #D, Folsom, CA 95630"
                 />
-                <Show date="October 9th" venue="Private Event" address="Sacramento, CA" />
+                <Show
+                    date="November 13th: 3rd Annual Barnacle Bash"
+                    time="4PM"
+                    bands="The Sugar Pushers, Cocoa and the Boys, The Ruby Woos and Antwon Vinnie"
+                    venue="Twin Rivers Civery"
+                    address="4311 Attawa Ave #300, Sacramento, CA 95822"
+                />
+                <Show 
+                    date="October 9th"
+                    time="3PM" 
+                    venue="Private Event" 
+                    address="Sacramento, CA"
+                    isPast 
+                />
                 <Show
                     date="October 3rd"
                     time="7PM"
                     bands="Church Girls, Paper Airplanes"
                     venue="Cafe Colonial"
                     address="3520 Stockton Blvd, Sacramento, CA 95820"
+                    isPast
                 />
                 <Show
                     date="August 13th"
