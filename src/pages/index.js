@@ -40,7 +40,7 @@ const IndexPage = () => (
                     date="November 13th: 3rd Annual Barnacle Bash"
                     time="4PM"
                     bands="The Sugar Pushers, Cocoa and the Boys, The Ruby Woos and Antwon Vinnie"
-                    venue="Twin Rivers Civery"
+                    venue="Twin Rivers Cidery"
                     address="4311 Attawa Ave #300, Sacramento, CA 95822"
                     tickets="https://www.eventbee.com/v/barnicalbash2021_tworiverscider#/tickets"
                 />
