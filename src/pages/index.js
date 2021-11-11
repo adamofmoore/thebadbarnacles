@@ -42,7 +42,7 @@ const IndexPage = () => (
                     bands="The Sugar Pushers, Cocoa and the Boys, The Ruby Woos and Antwon Vinnie"
                     venue="Twin Rivers Cidery"
                     address="4311 Attawa Ave #300, Sacramento, CA 95822"
-                    tickets="https://www.eventbee.com/v/barnicalbash2021_tworiverscider#/tickets"
+                    tickets="https://www.eventbee.com/v/barniclebash2021_tworiverscider#/tickets"
                 />
                 <Show
                     date="October 27th"
