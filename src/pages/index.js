@@ -37,12 +37,20 @@ const IndexPage = () => (
             <div className="section">
                 <h2>Upcoming Shows</h2>
                 <Show
+                    date="December 18th"
+                    time="7:30PM ($8)"
+                    bands="Moon Mode, Casey Sundazey, DJ Rebel Rebel"
+                    venue="Old Ironsides"
+                    address="1901 10th St, Sacramento, CA 95811"
+                />
+                <Show
                     date="November 13th: 3rd Annual Barnacle Bash"
                     time="4PM"
                     bands="The Sugar Pushers, Cocoa and the Boys, The Ruby Woos and Antwon Vinnie"
                     venue="Twin Rivers Cidery"
                     address="4311 Attawa Ave #300, Sacramento, CA 95822"
                     tickets="https://www.eventbee.com/v/barniclebash2021_tworiverscider#/tickets"
+                    isPast
                 />
                 <Show
                     date="October 27th"
@@ -52,13 +60,7 @@ const IndexPage = () => (
                     address="614 Sutter St. #D, Folsom, CA 95630"
                     isPast
                 />
-                <Show 
-                    date="October 9th"
-                    time="3PM" 
-                    venue="Private Event" 
-                    address="Sacramento, CA"
-                    isPast 
-                />
+                <Show date="October 9th" time="3PM" venue="Private Event" address="Sacramento, CA" isPast />
                 <Show
                     date="October 3rd"
                     time="7PM"
