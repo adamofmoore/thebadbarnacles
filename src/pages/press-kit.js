@@ -78,7 +78,6 @@ const SecondPage = () => (
                         <p>
                             <a href="mailto:thebadbarnacles@gmail.com">thebadbarnacles@gmail.com</a>
                         </p>
-                        <p>1.951.265.1091</p>
                     </div>
                 </div>
                 <div className="section col-xs-12 col-sm-5 col-md-4 col-sm-push-1">
