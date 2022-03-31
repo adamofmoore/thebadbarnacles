@@ -15,7 +15,8 @@ const Show = ({ date, time, bands, venue, address, isPast, tickets }: ShowProps)
     return (
         <ShowInfo {...{ isPast }}>
             <strong>
-                {date}, {time}
+                {date}
+                {time && ` - ${time}`}
             </strong>
             <br />
             {bands && `w/ ${bands}`} @ {venue}
