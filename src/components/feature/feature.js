@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Band1 from "./images/band-1.jpg";
+import Band1 from "./images/band-1-new.jpg";
 import Cider from "./images/cider.jpg";
 
 const BackgroundImage = styled.div`
