@@ -44,6 +44,13 @@ const IndexPage = () => (
                     address="1901 10th St, Sacramento, CA 95811"
                 />
                 <Show
+                    date="May 7th, 2022"
+                    time="6-8PM"
+                    bands="The Ruby Woos"
+                    venue="Track 7 Brewing Company"
+                    address="3747 W Pacific Ave F, Sacramento, CA 95820"
+                />
+                <Show
                     date="May 21st, 2022"
                     venue="River Ranch Music Festival Spring 2022"
                     address="20900 Fish Hatchery Road, Tuolumne, CA 95379"
