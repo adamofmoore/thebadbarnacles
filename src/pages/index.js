@@ -37,18 +37,11 @@ const IndexPage = () => (
             <div className="section">
                 <h2>Upcoming Shows</h2>
                 <Show
-                    date="May 6th, 2022"
-                    time="8:30PM"
-                    bands="Drop Dead Red"
-                    venue="Old Ironsides"
-                    address="1901 10th St, Sacramento, CA 95811"
-                />
-                <Show
-                    date="May 7th, 2022"
-                    time="6-8PM"
-                    bands="The Ruby Woos"
-                    venue="Track 7 Brewing Company"
-                    address="3747 W Pacific Ave F, Sacramento, CA 95820"
+                    date="May 19th, 2022"
+                    time="8PM"
+                    bands="SumBum, DJ JonVonRonk"
+                    venue="Bottle and Barlow"
+                    address="1120 R St, Sacramento, CA 95811"
                 />
                 <Show
                     date="May 21st, 2022"
