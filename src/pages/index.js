@@ -49,6 +49,7 @@ const IndexPage = () => (
                     address="20900 Fish Hatchery Road, Tuolumne, CA 95379"
                     tickets="https://riverranchmusicfestival.square.site/product/riverranchmusicfestival/5"
                 />
+                <Show date="June 8th, 2022" venue="Torch Club" address="904 15th St, Sacramento, CA 95814" />
                 <Show
                     date="October 8th, 2022"
                     venue="Sac Co-Op Harvest Festival"
