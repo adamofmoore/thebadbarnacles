@@ -8,8 +8,8 @@ import YouTubePlayer from "../components/youtube-player";
 const IndexPage = () => (
     <Layout>
         <SEO title="Home" />
-        <PrimaryFeature />
 
+        <PrimaryFeature />
         <iframe
             title="Spotify player"
             src="https://open.spotify.com/embed/track/7mMzmzB7F9AjvF2t2Nc54u"
@@ -18,18 +18,18 @@ const IndexPage = () => (
             frameBorder="0"
             allowTransparency="true"
             allow="encrypted-media"
-        ></iframe>
+        />
 
         <div className="container" style={{ textAlign: "center" }}>
             <div className="section">
                 <h2>Videos</h2>
                 <div className="row">
                     <div className="col-xs-12 col-sm-6">
-                        <YouTubePlayer video="5nqkEJcRyqA" />
+                        <YouTubePlayer video="or6IluH0sGM" />
                         <br />
                     </div>
                     <div className="col-xs-12 col-sm-6">
-                        <YouTubePlayer video="qSC8Bg7srAs" />
+                        <YouTubePlayer video="OnwBJ2ux2i0" />
                     </div>
                 </div>
             </div>
@@ -37,23 +37,23 @@ const IndexPage = () => (
             <div className="section">
                 <h2>Upcoming Shows</h2>
                 <Show
-                    date="May 19th, 2022"
+                    date="Aug 12th, 2022"
                     time="8PM"
-                    bands="SumBum, DJ JonVonRonk"
-                    venue="Bottle and Barlow"
-                    address="1120 R St, Sacramento, CA 95811"
+                    bands="Swan Ronson, Country Risque, TX3"
+                    venue="Russ Room"
+                    address="730 K St, Sacramento, CA"
                 />
                 <Show
-                    date="May 21st, 2022"
-                    venue="River Ranch Music Festival Spring 2022"
-                    address="20900 Fish Hatchery Road, Tuolumne, CA 95379"
-                    tickets="https://riverranchmusicfestival.square.site/product/riverranchmusicfestival/5"
+                    date="Oct 8th, 2022"
+                    time="TBD"
+                    venue="Harvest Fest at Sac Food Co-Op"
+                    address="2820 R St, Sacramento, CA"
                 />
-                <Show date="June 8th, 2022" venue="Torch Club" address="904 15th St, Sacramento, CA 95814" />
                 <Show
-                    date="October 8th, 2022"
-                    venue="Sac Co-Op Harvest Festival"
-                    address="2820 R St, Sacramento, CA 95816"
+                    date="Oct 22nd, 2022"
+                    time="5PM-9:30PM"
+                    venue="Barnacle Bash #4 at Two Rivers Cider Co."
+                    address="4311 Attawa Ave, Sacramento, CA"
                 />
             </div>
         </div>

@@ -18,29 +18,15 @@ const SecondPage = () => (
                 <div className="col-xs-12 col-sm-6 col-md-7">
                     <div className="section">
                         <h2>Bio</h2>
-                        <p>
-                            Sacramento three-piece, The Bad Barnacles, are blazing a path of success. Recently awarded
-                            by Sacramento News and Review as 2020’s Best Indie Band and Best Live Performer, the group
-                            has received much praise and accolades. Founded in 2015, The Bad Barnacles began as a liquor
-                            soaked house party band - and it wasn’t until 2020, with a heavy catalogue of original music
-                            to share, that they decided to venture into the local music scene.
-                        </p>
-                        <p>
-                            With their menacing surfabilly sound, these swashbuckling rockers were determined to
-                            showcase their creations. Establishing the annual Barnacle Bash, a themed Halloween revelry,
-                            empowered the band to organize local acts and creatives into a cohesive performance.
-                        </p>
-                        <p>
-                            Led by singer-songwriter, Mateo L. Wappo, the band’s most recent releases are a swaying,
-                            haunting and sometimes Spaghetti Western take on vintage gypsy rock. The Bad Barnacles are
-                            produced by Birdworm Records.
-                        </p>
+                        <p>The Bad Barnacles are not a cult.</p>
+                        <p>The Bad Barnacles are not a cult.</p>
+                        <p>The Bad Barnacles are not a cult.</p>
                     </div>
                     <div className="section">
                         <h2>Listen</h2>
                         <iframe
                             title="Spotify player"
-                            src="https://open.spotify.com/embed/album/1bDE3hNH9MIjOWieIE6rra"
+                            src="https://open.spotify.com/embed/album/2yrTx7iwFYsuASiirWJdHK"
                             width="100%"
                             height="380"
                             frameborder="0"

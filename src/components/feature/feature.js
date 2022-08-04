@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Band1 from "./images/band-1-new.jpg";
-import Cider from "./images/cider.jpg";
+import Band1 from "./images/band-1.jpg";
+import Band2 from "./images/band-2.jpg";
 
 const BackgroundImage = styled.div`
     height: 200px;
@@ -20,6 +20,6 @@ export const PrimaryFeature = styled(BackgroundImage)`
 `;
 
 export const SecondaryFeature = styled(BackgroundImage)`
-    background: url("${Cider}") top center no-repeat;
+    background: url("${Band2}") top center no-repeat;
     background-size: cover;
 `;
