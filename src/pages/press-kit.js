@@ -18,9 +18,21 @@ const SecondPage = () => (
                 <div className="col-xs-12 col-sm-6 col-md-7">
                     <div className="section">
                         <h2>Bio</h2>
-                        <p>The Bad Barnacles are not a cult.</p>
-                        <p>The Bad Barnacles are not a cult.</p>
-                        <p>The Bad Barnacles are not a cult.</p>
+                        <p>
+                            The Bad Barnacles are not a cult.
+                            <br />
+                            The Bad Barnacles are not a cult.
+                            <br />
+                            The Bad Barnacles are not a cult.
+                        </p>
+                        <p>
+                            The Bad Barnacles are a four piece group from Sacramento, who practice a unique form of
+                            Crooning Psychedelic-Garage-Surf. They are not a drug crazed hippie sex cult.
+                        </p>
+                        <p>
+                            Winners of Sacramento News and Review’s 2020 Sammie Awards for Best Live Performer and Best
+                            Independent Band.
+                        </p>
                     </div>
                     <div className="section">
                         <h2>Listen</h2>
