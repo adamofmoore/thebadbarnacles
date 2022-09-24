@@ -34,24 +34,13 @@ const IndexPage = () => (
 
             <div className="section">
                 <h2>Upcoming Shows</h2>
-                <Show
-                    date="Aug 12th, 2022"
-                    time="8PM"
-                    bands="Swan Ronson, Country Risque, TX3"
-                    venue="Russ Room"
-                    address="730 K St, Sacramento, CA"
-                />
-                <Show
-                    date="Oct 8th, 2022"
-                    time="TBD"
-                    venue="Harvest Fest at Sac Food Co-Op"
-                    address="2820 R St, Sacramento, CA"
-                />
+                <Show date="Oct 1st, 2022" time="7:00PM (FREE)" address="H and 21st St, Sacramento, CA" />
                 <Show
                     date="Oct 22nd, 2022"
-                    time="5PM-9:30PM"
-                    venue="Barnacle Bash #4 at Two Rivers Cider Co."
-                    address="4311 Attawa Ave, Sacramento, CA"
+                    time="6:30PM-MIDNIGHT"
+                    venue="Barnacle Bash #4 at Russ Room"
+                    address="730 K St, Sacramento, CA"
+                    tickets="https://www.exploretock.com/therussroom/event/365935"
                 />
             </div>
         </div>

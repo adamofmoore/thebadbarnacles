@@ -18,8 +18,12 @@ const Show = ({ date, time, bands, venue, address, isPast, tickets }: ShowProps)
                 {date}
                 {time && ` - ${time}`}
             </strong>
-            <br />
-            {bands && `w/ ${bands}`} @ {venue}
+            {(bands || venue) && (
+                <>
+                    <br />
+                    {bands && `w/ ${bands}`} {venue && "@" + venue}
+                </>
+            )}
             <br />
             <Address>{address}</Address>
             {tickets && <Tickets href={tickets}>Buy Tickets</Tickets>}
