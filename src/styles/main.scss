@@ -19,7 +19,7 @@
         line-height: 2.6rem;
         font-family: $font-family;
         color: $color__text;
-        background-color: #fff;
+        background-color: $color__tertiary;
     }
 }
 
@@ -82,7 +82,7 @@ a {
     transition: 200ms ease;
 
     &:hover {
-        text-decoration: underline;
+        color: $color__link-hover;
     }
 }
 
@@ -104,5 +104,9 @@ select {
 
 .section {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 60px;    
+}
+
+.text--center {
+    text-align: center;
 }

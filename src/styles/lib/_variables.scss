@@ -4,12 +4,14 @@
 // Colors
 //------------------------------
 $color__primary: #e96d3f;
-// $color__secondary: #3f3f3f;
+$color__secondary: #254441;
+$color__tertiary: #FFFCF2;
 
-$color__text: #373737;
+// $color__text: #373737;
+$color__text: $color__secondary;
 
 $color__link: $color__primary;
-$color__link-hover: #e60abd;
+$color__link-hover: #C94718;
 
 $color__mint-cream: #f0f7f4;
 

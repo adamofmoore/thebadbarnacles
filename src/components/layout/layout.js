@@ -11,8 +11,10 @@ const Layout = ({ children }) => {
             <div className={styles["outer-padding"]}>
                 <main>{children}</main>
             </div>
-            <Social />
-            <footer>&copy; The Bad Barnacles. All rights reserved.</footer>
+            <footer>
+                <Social />
+                &copy; The Bad Barnacles. All rights reserved.
+            </footer>
         </>
     );
 };

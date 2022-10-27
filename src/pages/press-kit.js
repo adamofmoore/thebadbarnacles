@@ -38,7 +38,7 @@ const SecondPage = () => (
                         <h2>Listen</h2>
                         <iframe
                             title="Spotify player"
-                            src="https://open.spotify.com/embed/album/2yrTx7iwFYsuASiirWJdHK"
+                            src="https://open.spotify.com/embed/album/2Ocpo3HvoIcwoxgkKbi4Oc"
                             width="100%"
                             height="380"
                             frameborder="0"
