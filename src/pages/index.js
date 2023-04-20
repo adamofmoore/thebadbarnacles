@@ -42,17 +42,43 @@ const IndexPage = () => (
                 </div>
             </div>
 
-            {/* <div className="section">
+            <div className="section">
                 <h2>Upcoming Shows</h2>
-                <Show date="Oct 1st, 2022" time="7:00PM (FREE)" address="H and 21st St, Sacramento, CA" />
                 <Show
-                    date="Oct 22nd, 2022"
-                    time="6:30PM-MIDNIGHT"
-                    venue="Barnacle Bash #4 at Russ Room"
-                    address="730 K St, Sacramento, CA"
-                    tickets="https://www.exploretock.com/therussroom/event/365935"
+                    date="April 23, 2023"
+                    time="4:00PM—8:00PM (FREE)"
+                    venue="LowBrau"
+                    address="1050 20th St, Sacramento, CA"
                 />
-            </div> */}
+                <Show
+                    date="April 30, 2023"
+                    time="6:00PM ($12 Pre / $15 Door)"
+                    venue="Starlet Room"
+                    address="2708 J St, Sacramento, CA"
+                    tickets="https://www.etix.com/ticket/p/7516214/get-the-wall-ep-release-showwith-just-is-the-are-nots-and-the-bad-barnacles-sacramento-the-starlet-room?fbclid=PAAabDaLTL1JvJsjPX8K9nNSArHPtj4DNj1s1CSOvG3uh1FdNPDs7hh1NvIq4"
+                    bands="Get the Wall, Just Is & the Are Nots"
+                />
+                <Show
+                    date="May 13, 2023"
+                    time="1:00PM—2:30PM (FREE)"
+                    venue="Sacramento Natural Foods Co-op"
+                    address="2820 R St, Sacramento, CA"
+                />
+                <Show
+                    date="May 19, 2023"
+                    time="7:00PM ($10 Pre / $15 Door)"
+                    venue="Old Ironsides"
+                    address="1901 10th St, Sacramento, CA"
+                    tickets="https://wl.seetickets.us/event/Death-PartyAtTheBeach/544367?afflky=OldIronsides"
+                    bands="Death Party At The Beach, Swan Ronson, The Dark Whatever"
+                />
+                <Show
+                    date="June 25, 2023"
+                    venue="Starlet Room"
+                    address="2708 J St, Sacramento, CA"
+                    bands="The Love Muscles"
+                />
+            </div>
         </div>
     </Layout>
 );
