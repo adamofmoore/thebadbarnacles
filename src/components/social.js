@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import { colors } from "../styles/colors";
 
 const Social = () => (
     <SocialLinks>

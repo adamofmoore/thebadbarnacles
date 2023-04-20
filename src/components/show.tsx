@@ -9,23 +9,27 @@ interface ShowProps {
     address: string;
     isPast?: boolean;
     tickets?: string;
+    price?: string;
 }
 
-const Show = ({ date, time, bands, venue, address, isPast, tickets }: ShowProps) => {
+const Show = ({ date, time, bands, venue, address, isPast, tickets, price }: ShowProps) => {
     return (
         <ShowInfo {...{ isPast }}>
             <strong>
                 {date}
                 {time && ` - ${time}`}
             </strong>
-            {(bands || venue) && (
+            {bands && (
                 <>
                     <br />
-                    {bands && `w/ ${bands}`} {venue && "@" + venue}
+                    with {bands}
                 </>
             )}
-            <br />
-            <Address>{address}</Address>
+            <Small>
+                {venue && `${venue}, `}
+                {address}
+            </Small>
+            {price && <Small>{price}</Small>}
             {tickets && <Tickets href={tickets}>Buy Tickets</Tickets>}
         </ShowInfo>
     );
@@ -35,7 +39,7 @@ const Tickets = styled.a.attrs({ target: "_blank" })`
     font-size: 1.3rem;
 `;
 
-const Address = styled.span`
+const Small = styled.span`
     font-size: 1.3rem;
     color: #555;
     display: block;
