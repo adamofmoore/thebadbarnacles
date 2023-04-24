@@ -36,13 +36,6 @@ const IndexPage = () => (
             <div className="section">
                 <h2>Upcoming Shows</h2>
                 <Show
-                    date="April 23, 2023"
-                    time="4:00PM—8:00PM"
-                    venue="LowBrau"
-                    address="1050 20th St, Sacramento, CA"
-                    price="FREE"
-                />
-                <Show
                     date="April 30, 2023"
                     time="6:00PM"
                     venue="Starlet Room"
