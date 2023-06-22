@@ -37,7 +37,6 @@ const SocialLinks = styled.div`
     font-size: 3rem;
 
     a {
-        margin: 8px;
         padding: 12px;
 
         &:hover {
