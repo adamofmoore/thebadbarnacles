@@ -10,15 +10,18 @@ interface ShowProps {
     isPast?: boolean;
     tickets?: string;
     price?: string;
+    moreInfo?: string;
+    showTitle?: string;
 }
 
-const Show = ({ date, time, bands, venue, address, isPast, tickets, price }: ShowProps) => {
+const Show = ({ date, time, bands, venue, address, isPast, tickets, price, moreInfo, showTitle }: ShowProps) => {
     return (
         <ShowInfo {...{ isPast }}>
-            <strong>
+            {showTitle && <strong>{showTitle}</strong>}
+            <Small>
                 {date}
                 {time && ` - ${time}`}
-            </strong>
+            </Small>
             {bands && (
                 <>
                     <br />
@@ -31,6 +34,7 @@ const Show = ({ date, time, bands, venue, address, isPast, tickets, price }: Sho
             </Small>
             {price && <Small>{price}</Small>}
             {tickets && <Tickets href={tickets}>Buy Tickets</Tickets>}
+            {moreInfo && <Tickets href={moreInfo}>More Info</Tickets>}
         </ShowInfo>
     );
 };

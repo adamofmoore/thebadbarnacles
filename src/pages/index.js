@@ -36,25 +36,21 @@ const IndexPage = () => (
             <div className="section">
                 <h2>Upcoming Shows</h2>
                 <Show
-                    date="June 25, 2023"
-                    time="8:00PM"
+                    date="October 7, 2023"
+                    time="5:15PM"
+                    showTitle="Colonial Heights Porchfest"
+                    venue="Colonial Park"
+                    address="19th Ave, Sacramento, CA (Porch #3)"
+                    moreInfo="https://www.eventbrite.com/e/2023-colonial-heights-porchfest-tickets-674374230477#:~:text=The%202023%20Colonial%20Heights%20Porchfest,Ave%2C%20Sacramento%2C%20CA%2095820"
+                />
+                <Show
+                    date="October 13, 2023"
+                    time="7:30PM"
+                    showTitle="Spinal Sac: A Spinal Tap Tribute Night"
                     venue="Starlet Room"
                     address="2708 J St, Sacramento, CA"
-                    bands="The Love Muscles"
+                    tickets="https://www.harlows.com/event/spinal-sac-a-spinal-tap-tribute-night/the-starlet-room/-sacramento-california/"
                 />
-                <Show
-                    date="July 21, 2023"
-                    time="8:00PM"
-                    venue="Brentwood Emporium"
-                    address="561 1st St. Brentwood, CA"
-                />
-                <Show
-                    date="August 11, 2023"
-                    venue="Bike Dog Brewing"
-                    time="5:30PM"
-                    address="2568 Industrial Blvd #110, West Sacramento, CA"
-                />
-                <Show date="Sept 10, 2023" venue="Saturn Bar NOLA" address="3067 St Claude Ave, New Orleans, LA" />
             </div>
         </div>
     </Layout>
