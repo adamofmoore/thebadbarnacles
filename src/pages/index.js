@@ -36,20 +36,31 @@ const IndexPage = () => (
             <div className="section">
                 <h2>Upcoming Shows</h2>
                 <Show
-                    date="October 7, 2023"
-                    time="5:15PM"
-                    showTitle="Colonial Heights Porchfest"
-                    venue="Colonial Park"
-                    address="19th Ave, Sacramento, CA (Porch #3)"
-                    moreInfo="https://www.eventbrite.com/e/2023-colonial-heights-porchfest-tickets-674374230477#:~:text=The%202023%20Colonial%20Heights%20Porchfest,Ave%2C%20Sacramento%2C%20CA%2095820"
+                    date="July 20, 2024"
+                    time="4:30PM"
+                    showTitle="Alpine Block Party"
+                    venue="Stonum Vineyards"
+                    address="16388 Alpine Rd, Lodi, CA"
+                    tickets="https://stonumvineyards.ticketsauce.com/e/alpine-block-party-2024"
+                />
+                 <Show
+                    date="August 30, 2024"
+                    time="TBD"
+                    venue="Old Ironsides"
+                    address="1901 10th St, Sacramento, CA"
+                />
+                 <Show
+                    date="September 6, 2024"
+                    time="TBD"
+                    venue="Carrollton Station NOLA"
+                    address="8140 Willow St, New Orleans, LA"
+                    moreInfo="https://www.carrolltonstationnola.com"
                 />
                 <Show
-                    date="October 13, 2023"
-                    time="7:30PM"
-                    showTitle="Spinal Sac: A Spinal Tap Tribute Night"
-                    venue="Starlet Room"
-                    address="2708 J St, Sacramento, CA"
-                    tickets="https://www.harlows.com/event/spinal-sac-a-spinal-tap-tribute-night/the-starlet-room/-sacramento-california/"
+                    date="September 21, 2024"
+                    time="4:00PM"
+                    venue="Bike Dog East Sac"
+                    address="1210 66th St, Sacramento, CA"
                 />
             </div>
         </div>
