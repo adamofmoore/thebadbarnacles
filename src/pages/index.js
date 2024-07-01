@@ -46,12 +46,14 @@ const IndexPage = () => (
                  <Show
                     date="August 30, 2024"
                     time="TBD"
+                    showTitle="Old Ironsides"
                     venue="Old Ironsides"
                     address="1901 10th St, Sacramento, CA"
                 />
                  <Show
                     date="September 6, 2024"
                     time="TBD"
+                    showTitle="Carrollton Station"
                     venue="Carrollton Station NOLA"
                     address="8140 Willow St, New Orleans, LA"
                     moreInfo="https://www.carrolltonstationnola.com"
@@ -59,6 +61,7 @@ const IndexPage = () => (
                 <Show
                     date="September 21, 2024"
                     time="4:00PM"
+                    showTitle="Bike Dog"
                     venue="Bike Dog East Sac"
                     address="1210 66th St, Sacramento, CA"
                 />
