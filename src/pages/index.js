@@ -65,6 +65,12 @@ const IndexPage = () => (
                     venue="Bike Dog East Sac"
                     address="1210 66th St, Sacramento, CA"
                 />
+                <Show
+                    date="November 2, 2024"
+                    time="TBD"
+                    showTitle="Barnacle Bash 5"
+                    venue="Old Ironsides"
+                    address="1901 10th St, Sacramento, CA"
             </div>
         </div>
     </Layout>
