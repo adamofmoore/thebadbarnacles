@@ -35,20 +35,6 @@ const IndexPage = () => (
 
             <div className="section">
                 <h2>Upcoming Shows</h2>
-                <Show
-                    date="July 20, 2024"
-                    time="4:30PM"
-                    showTitle="Alpine Block Party"
-                    venue="Stonum Vineyards"
-                    address="16388 Alpine Rd, Lodi, CA"
-                    tickets="https://stonumvineyards.ticketsauce.com/e/alpine-block-party-2024"
-                />
-                 <Show
-                    date="August 30, 2024"
-                    time="TBD"
-                    showTitle="Old Ironsides"
-                    venue="Old Ironsides"
-                    address="1901 10th St, Sacramento, CA"
                 />
                  <Show
                     date="September 6, 2024"
@@ -66,11 +52,18 @@ const IndexPage = () => (
                     address="1210 66th St, Sacramento, CA"
                 />
                 <Show
+                    date="October 26, 2024"
+                    time="TBD"
+                    showTitle="Winchster Goose"
+                    venue="The Winchester Goose"
+                    address="824 Oroville Ave, Chico, CA"
+                />
+                <Show
                     date="November 2, 2024"
                     time="TBD"
                     showTitle="Barnacle Bash 5"
-                    venue="Old Ironsides"
-                    address="1901 10th St, Sacramento, CA"
+                    venue="Cafe Colonial"
+                    address="3520 Stockton Blvd, Sacramento, CA"
             </div>
         </div>
     </Layout>
