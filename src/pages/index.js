@@ -36,7 +36,7 @@ const IndexPage = () => (
             <div className="section">
                 <h2>Upcoming Shows</h2>
                 />
-                 <Show
+                 <Show/>
                     date="September 6, 2024"
                     time="TBD"
                     showTitle="Carrollton Station"
@@ -44,21 +44,21 @@ const IndexPage = () => (
                     address="8140 Willow St, New Orleans, LA"
                     moreInfo="https://www.carrolltonstationnola.com"
                 />
-                <Show
+                 <Show/>
                     date="September 21, 2024"
                     time="4:00PM"
                     showTitle="Bike Dog"
                     venue="Bike Dog East Sac"
                     address="1210 66th St, Sacramento, CA"
                 />
-                <Show
+                 <Show/>
                     date="October 26, 2024"
                     time="TBD"
                     showTitle="Winchster Goose"
                     venue="The Winchester Goose"
                     address="824 Oroville Ave, Chico, CA"
                 />
-                <Show
+                 <Show/>
                     date="November 2, 2024"
                     time="TBD"
                     showTitle="Barnacle Bash 5"
