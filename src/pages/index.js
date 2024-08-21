@@ -35,7 +35,7 @@ const IndexPage = () => (
 
             <div className="section">
                 <h2>Upcoming Shows</h2>
-                />
+                
                  <Show/>
                     date="September 6, 2024"
                     time="TBD"
@@ -64,6 +64,7 @@ const IndexPage = () => (
                     showTitle="Barnacle Bash 5"
                     venue="Cafe Colonial"
                     address="3520 Stockton Blvd, Sacramento, CA"
+                />
             </div>
         </div>
     </Layout>
