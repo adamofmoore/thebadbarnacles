@@ -45,14 +45,14 @@ const IndexPage = () => (
                 />
                  <Show
                     date="October 26, 2024"
-                    time="TBD"
+                    time="8:00PM"
                     showTitle="Winchster Goose"
                     venue="The Winchester Goose"
                     address="824 Oroville Ave, Chico, CA"
                 />
                  <Show
                     date="November 2, 2024"
-                    time="TBD"
+                    time="6:30PM"
                     showTitle="Barnacle Bash 5"
                     venue="Cafe Colonial"
                     address="3520 Stockton Blvd, Sacramento, CA"
