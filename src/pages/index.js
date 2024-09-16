@@ -37,14 +37,6 @@ const IndexPage = () => (
                 <h2>Upcoming Shows</h2>
                 
                  <Show
-                    date="September 6, 2024"
-                    time="TBD"
-                    showTitle="Carrollton Station"
-                    venue="Carrollton Station NOLA"
-                    address="8140 Willow St, New Orleans, LA"
-                    moreInfo="https://www.carrolltonstationnola.com"
-                />
-                 <Show
                     date="September 21, 2024"
                     time="4:00PM"
                     showTitle="Bike Dog"
