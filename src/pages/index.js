@@ -37,11 +37,11 @@ const IndexPage = () => (
                 <h2>Upcoming Shows</h2>
                 
                  <Show
-                    date="September 21, 2024"
-                    time="4:00PM"
-                    showTitle="Bike Dog"
-                    venue="Bike Dog East Sac"
-                    address="1210 66th St, Sacramento, CA"
+                    date="October 18, 2024"
+                    time="9:00PM"
+                    showTitle="Torch Club"
+                    venue="Torch Club"
+                    address="904 15th St, Sacramento, CA"
                 />
                  <Show
                     date="October 26, 2024"
