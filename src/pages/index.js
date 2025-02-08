@@ -37,25 +37,25 @@ const IndexPage = () => (
                 <h2>Upcoming Shows</h2>
                 
                  <Show
-                    date="October 18, 2024"
+                    date="March 1, 2025"
                     time="9:00PM"
                     showTitle="Torch Club"
                     venue="Torch Club"
                     address="904 15th St, Sacramento, CA"
                 />
                  <Show
-                    date="October 26, 2024"
+                    date="June 28, 2025"
                     time="8:00PM"
-                    showTitle="Winchster Goose"
-                    venue="The Winchester Goose"
-                    address="824 Oroville Ave, Chico, CA"
-                />
-                 <Show
-                    date="November 2, 2024"
-                    time="6:30PM"
-                    showTitle="Barnacle Bash 5"
+                    showTitle="Cafe Colonial"
                     venue="Cafe Colonial"
                     address="3520 Stockton Blvd, Sacramento, CA"
+                />
+                 <Show
+                    date="September 13, 2025"
+                    time="6:00PM"
+                    showTitle="Second Saturday Concert"
+                    venue="Sac Bike Kitchen"
+                    address="1915 I St, Sacramento, CA"
                 />
             </div>
         </div>
