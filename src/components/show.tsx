@@ -17,7 +17,7 @@ interface ShowProps {
 const Show = ({ date, time, bands, venue, address, isPast, tickets, price, moreInfo, showTitle }: ShowProps) => {
     return (
         <ShowInfo {...{ isPast }}>
-            {showTitle && <strong>{showTitle}</strong>}
+            {showTitle && <Title>{showTitle}</Title>}
             <Small>
                 {date}
                 {time && ` - ${time}`}
@@ -44,12 +44,14 @@ const Tickets = styled.a.attrs({ target: "_blank" })`
 `;
 
 const Small = styled.span`
-    font-size: 1.3rem;
-    color: #555;
+    font-size: 1.4rem;
+    color: #ccc;
     display: block;
 `;
 
 const ShowInfo = styled.p<{ isPast }>`
+    font-size: 1.8rem;
+    line-height: 2.4rem;
     margin-bottom: 32px;
 
     ${(p) =>
@@ -57,6 +59,11 @@ const ShowInfo = styled.p<{ isPast }>`
         `
         text-decoration: line-through;
     `}
+`;
+
+const Title = styled.strong`
+    display: block;
+    margin-bottom: 4px;
 `;
 
 export default Show;
