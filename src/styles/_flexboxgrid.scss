@@ -1,3 +1,7 @@
+@use "sass:math";
+@use "sass:list";
+@use "lib/mixins" as mixins;
+
 $gutter: 16px;
 $gutters: $gutter * 2;
 $sizes: (
@@ -14,19 +18,19 @@ $sizes: (
     padding-right: $gutter;
     padding-left: $gutter;
 
-    @include bp(tablet) {
+    @include mixins.bp(tablet) {
         max-width: 752px;
     }
 
-    @include bp(tablet-large) {
+    @include mixins.bp(tablet-large) {
         max-width: 942px;
     }
 
-    @include bp(desktop) {
+    @include mixins.bp(desktop) {
         max-width: 976px;
     }
 
-    @include bp(desktop-large) {
+    @include mixins.bp(desktop-large) {
         max-width: 1140px;
     }
 }
@@ -69,65 +73,65 @@ $sizes: (
 }
 
 @each $size in $sizes {
-    @include bp(nth($size, 1)) {
-        .flex-#{nth($size,2)} {
+    @include mixins.bp(list.nth($size, 1)) {
+        .flex-#{list.nth($size,2)} {
             display: flex;
         }
 
-        .col-#{nth($size, 2)} {
+        .col-#{list.nth($size, 2)} {
             flex-grow: 1;
             flex-basis: 0;
             max-width: 100%;
         }
 
-        .row.reverse-#{nth($size, 2)} {
+        .row.reverse-#{list.nth($size, 2)} {
             flex-direction: row-reverse;
         }
 
-        .col.reverse-#{nth($size, 2)} {
+        .col.reverse-#{list.nth($size, 2)} {
             flex-direction: column-reverse;
         }
 
-        .start-#{nth($size, 2)} {
+        .start-#{list.nth($size, 2)} {
             justify-content: flex-start;
             text-align: start;
         }
 
-        .center-#{nth($size, 2)} {
+        .center-#{list.nth($size, 2)} {
             justify-content: center;
             text-align: center;
         }
 
-        .end-#{nth($size, 2)} {
+        .end-#{list.nth($size, 2)} {
             justify-content: flex-end;
             text-align: end;
         }
 
-        .top-#{nth($size, 2)} {
+        .top-#{list.nth($size, 2)} {
             align-items: flex-start;
         }
 
-        .middle-#{nth($size, 2)} {
+        .middle-#{list.nth($size, 2)} {
             align-items: center;
         }
 
-        .bottom-#{nth($size, 2)} {
+        .bottom-#{list.nth($size, 2)} {
             align-items: flex-end;
         }
 
-        .around-#{nth($size, 2)} {
+        .around-#{list.nth($size, 2)} {
             justify-content: space-around;
         }
 
-        .between-#{nth($size, 2)} {
+        .between-#{list.nth($size, 2)} {
             justify-content: space-between;
         }
 
-        .first-#{nth($size, 2)} {
+        .first-#{list.nth($size, 2)} {
             order: -1;
         }
 
-        .last-#{nth($size, 2)} {
+        .last-#{list.nth($size, 2)} {
             order: 1;
         }
     }
@@ -137,31 +141,31 @@ $sizes: (
     .col-#{$i} {
         box-sizing: border-box;
         flex: 0 0 auto;
-        flex-basis: 1/12 * $i * 100%;
-        max-width: 1/12 * $i * 100%;
+        flex-basis: math.div(1, 12) * $i * 100%;
+        max-width: math.div(1, 12) * $i * 100%;
         padding-right: $gutter;
         padding-left: $gutter;
     }
 }
 
 @each $size in $sizes {
-    @include bp(nth($size, 1)) {
+    @include mixins.bp(list.nth($size, 1)) {
         @for $i from 0 through 12 {
-            .col-#{nth($size, 2)}-#{$i} {
+            .col-#{list.nth($size, 2)}-#{$i} {
                 box-sizing: border-box;
                 flex: 0 0 auto;
-                flex-basis: 1/12 * $i * 100%;
-                max-width: 1/12 * $i * 100%;
+                flex-basis: math.div(1, 12) * $i * 100%;
+                max-width: math.div(1, 12) * $i * 100%;
                 padding-right: $gutter;
                 padding-left: $gutter;
             }
 
-            .col-#{nth($size, 2)}-push-#{$i} {
-                left: calc(#{1 / 12 * $i * 100%});
+            .col-#{list.nth($size, 2)}-push-#{$i} {
+                left: calc(#{math.div(1, 12) * $i * 100%});
             }
 
-            .col-#{nth($size, 2)}-pull-#{$i} {
-                right: calc(#{1 / 12 * $i * 100%});
+            .col-#{list.nth($size, 2)}-pull-#{$i} {
+                right: calc(#{math.div(1, 12) * $i * 100%});
             }
         }
     }

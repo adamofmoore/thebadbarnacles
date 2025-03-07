@@ -1,4 +1,4 @@
-@import "../../styles/lib/variables";
+@use "../../styles/lib/variables" as vars;
 
 .outer-padding {
     margin: 0 16px;

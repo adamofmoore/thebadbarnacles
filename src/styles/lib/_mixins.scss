@@ -1,7 +1,11 @@
+@use "sass:map";
+@use "sass:string";
+@forward "retina";
+
 // SCSS Mixins
 //------------------------------
 // 1.0 - Media Queries
-// 2.0 - Retina
+// 2.0 - Retina (forwarded above)
 // 3.0 - Blur
 //------------------------------
 
@@ -20,7 +24,7 @@ $mediaQueries: (
 );
 
 @function media-query($name) {
-    @return unquote(map-get($mediaQueries, $name));
+    @return string.unquote(map.get($mediaQueries, $name));
 }
 
 @mixin bp($name) {
@@ -29,17 +33,15 @@ $mediaQueries: (
     }
 }
 
-// 2.0 - Retina
-//------------------------------
-@import "retina";
-
 // 3.0 - Blur
 //------------------------------
 @mixin blur($amount) {
     $blur: blur(#{$amount});
-    @if ($amount == none) {
+
+    @if ($amount ==none) {
         $blur: none;
     }
+
     -webkit-filter: #{$blur};
     -moz-filter: #{$blur};
     -o-filter: #{$blur};

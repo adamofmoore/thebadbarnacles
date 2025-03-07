@@ -1,4 +1,4 @@
-@import "../../styles/lib/variables";
+@use "../../styles/lib/variables" as vars;
 
 .outer-padding {
     margin: 0 30px;
@@ -18,7 +18,7 @@ header {
     }
 
     a {
-        color: $color__primary;
+        color: vars.$color__primary;
         text-decoration: none;
     }
 
@@ -46,7 +46,7 @@ header {
     .header-nav-links {
         display: flex;
 
-        > * {
+        >* {
             margin-left: 30px;
 
             &:first-child {
