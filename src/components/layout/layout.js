@@ -1,20 +1,18 @@
 import PropTypes from "prop-types";
 import React from "react";
+import styled from "styled-components";
 import Header from "../header/header";
 import Social from "../social";
-import styles from "./layout.scss";
 
 const Layout = ({ children }) => {
     return (
         <>
             <Header />
-            <div className={styles["outer-padding"]}>
-                <main>{children}</main>
-            </div>
-            <footer>
+            <main>{children}</main>
+            <Footer>
                 <Social />
                 &copy; The Bad Barnacles. All rights reserved.
-            </footer>
+            </Footer>
         </>
     );
 };
@@ -22,5 +20,12 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
     children: PropTypes.node.isRequired,
 };
+
+const Footer = styled.footer`
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+`;
 
 export default Layout;
