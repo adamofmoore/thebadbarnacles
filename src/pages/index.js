@@ -13,7 +13,7 @@ const IndexPage = () => (
             <h2>Latest Single</h2>
             <iframe
                 title="spotify-embed"
-                src="https://open.spotify.com/embed/track/4rMID8yQbdqYmsQCPIAlZm?utm_source=generator"
+                src="https://open.spotify.com/embed/track/176TyG0Fo5W2YdHlCUBVC7"
                 width="100%"
                 height="152"
                 allowFullScreen
@@ -35,22 +35,22 @@ const IndexPage = () => (
 
             <div className="section">
                 <h2>Upcoming Shows</h2>
-                
-                 <Show
+
+                <Show
                     date="March 1, 2025"
                     time="9:00PM"
                     showTitle="Torch Club"
                     venue="Torch Club"
                     address="904 15th St, Sacramento, CA"
                 />
-                 <Show
+                <Show
                     date="June 28, 2025"
                     time="8:00PM"
                     showTitle="Cafe Colonial"
                     venue="Cafe Colonial"
                     address="3520 Stockton Blvd, Sacramento, CA"
                 />
-                 <Show
+                <Show
                     date="September 13, 2025"
                     time="6:00PM"
                     showTitle="Second Saturday Concert"
