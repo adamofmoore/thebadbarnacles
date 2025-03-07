@@ -1,6 +1,6 @@
 import { styled, css } from "styled-components";
-import Band1 from "./images/band-1.jpg";
-import Band2 from "./images/band-2.jpg";
+import Band1 from "./images/band-1-nola.jpg";
+import Band2 from "./images/band-2-nola.jpg";
 
 const BackgroundImage = styled.div`
     height: 200px;
@@ -22,13 +22,13 @@ const inset = css`
 `;
 
 export const PrimaryFeature = styled(BackgroundImage)`
-    background: url("${Band1}") top center no-repeat;
+    background: url("${Band1}") center center no-repeat;
     background-size: cover;
     ${inset}
 `;
 
 export const SecondaryFeature = styled(BackgroundImage)`
-    background: url("${Band2}") top center no-repeat;
+    background: url("${Band2}") center center no-repeat;
     background-size: cover;
     ${inset}
 `;

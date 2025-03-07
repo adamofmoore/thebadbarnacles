@@ -6,20 +6,25 @@ import Social from "../social";
 
 const Layout = ({ children }) => {
     return (
-        <>
+        <Wrapper>
             <Header />
             <main>{children}</main>
             <Footer>
                 <Social />
                 &copy; The Bad Barnacles. All rights reserved.
             </Footer>
-        </>
+        </Wrapper>
     );
 };
 
 Layout.propTypes = {
     children: PropTypes.node.isRequired,
 };
+
+const Wrapper = styled.div`
+    max-width: 1800px;
+    margin: auto;
+`;
 
 const Footer = styled.footer`
     padding: 20px;
