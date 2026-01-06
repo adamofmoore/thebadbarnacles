@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 function YouTubePlayer(props: { video: string; autoplay?: boolean }) {
-    const autoplay = props.autoplay ? "?autoplay=1" : "?autoplay=0";
-    const src = "https://www.youtube.com/embed/" + props.video + "?rel=0&amp;showinfo=0;" + autoplay;
+    const autoplayParam = props.autoplay ? "1" : "0";
+    const src = `https://www.youtube.com/embed/${props.video}?rel=0&showinfo=0&autoplay=${autoplayParam}`;
 
     return (
         <EmbedContainer>
